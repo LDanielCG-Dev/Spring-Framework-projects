@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.danieh.users.entities.UserInRow&apos; to &apos;UserInRole&apos;&#x0D;&#x0A;- Original project: &apos;users-app&apos;&#x0D;&#x0A;- Original element: &apos;com.danieh.users.entities.UserInRow&apos;&#x0D;&#x0A;- Renamed element: &apos;com.danieh.users.entities.UserInRole&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UserInRow&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.danieh.users.entities{UserInRow.java[UserInRow" matchStrategy="1" name="UserInRole" qualified="false" references="true" similarDeclarations="false" stamp="1722275939443" textual="false" version="1.0"/>
+</session>

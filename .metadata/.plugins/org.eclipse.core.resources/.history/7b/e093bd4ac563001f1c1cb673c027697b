@@ -1,0 +1,6 @@
+package com.danieh.users.services;
+
+@Component
+public class DaniehListener {
+
+}

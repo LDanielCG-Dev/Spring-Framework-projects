@@ -1,0 +1,8 @@
+package com.danieh.users.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class DaniehKafkaConfiguration {
+
+}

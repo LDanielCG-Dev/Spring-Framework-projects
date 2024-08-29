@@ -1,0 +1,5 @@
+package com.danieh.users.models;
+
+public class AuditDetails {
+
+}

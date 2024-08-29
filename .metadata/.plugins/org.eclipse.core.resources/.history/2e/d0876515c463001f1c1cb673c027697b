@@ -1,0 +1,6 @@
+package com.danieh.users.config;
+
+@Config
+public class DaniehKafkaConfiguration {
+
+}

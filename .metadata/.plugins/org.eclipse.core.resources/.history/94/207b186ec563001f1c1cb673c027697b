@@ -1,0 +1,13 @@
+package com.danieh.users.services;
+
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Component;
+
+@Component
+public class DaniehListener {
+
+	@KafkaListener(topics = "danieh-topic", groupId = "consumer")
+	public void listen(String message) {
+		System.out.println("Received Messasge in group foo: " + message);
+	}
+}

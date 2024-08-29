@@ -1,0 +1,17 @@
+default.install=Boot 2.3.1.RELEASE
+eclipse.preferences.version=1
+installs=https\://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.1.15.RELEASE/spring-boot-cli-2.1.15.RELEASE-bin.zip\\;Boot 2.1.15.RELEASE\\;;file\:/F\:/OTHER_M2/CODE_PROGRAMMING_STUFF/SPRING_COURSE/MATERIAL/spring-boot-cli-2.3.1.RELEASE-bin.zip\\;Boot 2.3.1.RELEASE\\;;
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=users-app
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.3.2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.danieh
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=users-app
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.danieh.users
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

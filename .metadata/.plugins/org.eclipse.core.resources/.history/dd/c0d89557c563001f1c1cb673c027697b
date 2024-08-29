@@ -1,0 +1,8 @@
+package com.danieh.users.services;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class DaniehListener {
+
+}

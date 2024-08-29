@@ -1,0 +1,8 @@
+spring.application.name=users-app
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.url=jdbc:h2:mem:testdb
+management.endpoints.web.exposure.include=health,info,metrics,prometheus
+
+server.tomcat.threads.max=1
