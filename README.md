@@ -28,6 +28,17 @@ This API lets you:
 - List, create, update, delete, assign roles.
 - List, create profiles for users.
 
+------------
+
+### Commands needed to properly run this API
+- **Kafka commands**:
+	- Zookeeper: ```.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties```
+	- Kafka server: ```.\bin\windows\kafka-server-start.bat .\config\server.properties```
+- **Redis**: execute the file ```redis-server.exe```
+- **Spring**: ```./mvnw spring-boot:run```
+
+------------
+
 ## TABLE OF CONTENTS
 
 - [Endpoints](#endpoints)
