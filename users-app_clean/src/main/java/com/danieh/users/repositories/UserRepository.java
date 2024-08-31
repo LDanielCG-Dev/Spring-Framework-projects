@@ -21,7 +21,8 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	 * 
 	 * Esto NO es SQL. Se llama JPQL.
 	 */
-	@Query("SELECT u.username FROM User u WHERE u.username LIKE '%collins'")
+	//@Query("SELECT u.username FROM User u WHERE u.username LIKE '%collins'")
+	@Query("SELECT u.username FROM User u")
 	public Page<String> findUsernames(Pageable pageable);
 
 }

@@ -1,6 +1,7 @@
 package com.danieh.users.repositories;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -19,4 +20,5 @@ public interface UserInRoleRepository extends CrudRepository<UserInRole, Integer
 	public List<User> findUserByRole(String roleName);
 	
 	public List<UserInRole> findByUser(User user);
+	
 }

@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.danieh.users.entities.User;
+import com.danieh.users.repositories.UserInRoleRepository;
+import com.danieh.users.services.RoleService;
 import com.danieh.users.services.UserService;
 
 import io.micrometer.core.annotation.Timed;
@@ -27,6 +29,9 @@ public class UserController {
 
 	@Autowired
 	private UserService service;
+	
+	@Autowired
+	private RoleService roleService;
 	
 	@GetMapping
 	@Timed("get.users")
@@ -80,6 +85,7 @@ public class UserController {
 	
 	@DeleteMapping("/{username}")
 	public ResponseEntity<Void> deleteUser(@PathVariable("username") String username) {
+		roleService.deleteRoleFromUser(service.getUserByUsername(username));
 		service.deleteUserByUsername(username);
 		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 	}

@@ -25,6 +25,11 @@ public class ProfileController {
 		return new ResponseEntity<Profile>(service.getByUserIdAndProfileId(userId, profileId), HttpStatus.OK);
 	}
 	
+	@GetMapping
+	public ResponseEntity<Profile> getProfiles(@PathVariable("userId") Integer userId) {
+		return new ResponseEntity<Profile>(service.getByUserId(userId), HttpStatus.OK);
+	}
+	
 	@PostMapping
 	public ResponseEntity<Profile> create(@PathVariable("userId") Integer userId, @RequestBody Profile profile) {
 		return new ResponseEntity<Profile>(service.create(userId, profile), HttpStatus.CREATED);

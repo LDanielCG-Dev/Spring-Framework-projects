@@ -14,5 +14,8 @@ public interface ProfileRepository extends CrudRepository<Profile, Integer> {
 	
 	@Query("SELECT p FROM Profile p WHERE p.user.id=?1 AND p.id=?2")
 	Optional<Profile> findByUserIdAndProfileId(Integer userId, Integer profileId);
+	
+	@Query("SELECT p FROM Profile p WHERE p.user.id=?1")
+	Optional<Profile> findByUserId(Integer userId);
 
 }
